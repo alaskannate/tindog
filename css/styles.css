@@ -1,0 +1,238 @@
+
+
+/* Common tags */
+
+body {
+    font-family:Montserrat;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family:Montserrat;
+    font-weight: 900;
+}
+
+p {
+    color:#8f8f8f
+}
+
+/* Sections */
+
+.section-colored {
+    background-color:#ff4c68;
+    color:#fff;
+}
+
+.section-white  {
+    background-color:#fff;
+}
+
+
+
+/* Title section */
+
+body .container-fluid { 
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding:7% 15%; 
+
+}
+
+#title .container-fluid { 
+    padding: 2% 15% 15% 15%;
+}
+
+
+.navbar-brand {
+    color:#fff;
+    font-family: Ubuntu;
+    font-weight: 700;
+
+}
+
+.fa-brands {
+    padding-right:5px;
+}
+
+.tagline-box { 
+    position: relative;
+    top: 1.5rem;
+}
+.iphone6 {
+transform: rotate(25deg);
+width: 250px;
+position: absolute;
+}
+ 
+
+/* Features section */
+
+#features {
+    background-color:#fff;
+    color:#000;
+    text-align: center;
+    line-height: 1.5;
+    position: relative;
+
+}
+
+.feature-p { 
+    padding: 0 15%;
+}
+
+
+.feature-box {
+    line-height:2.5;
+    padding:5% 0;
+}
+
+.fa-solid { 
+    color:#ef8172;
+    margin-bottom: 2.5rem;
+    font-size:4rem;
+}
+
+.fa-solid:hover {
+    color:#ff4c68;
+}
+
+
+/* Testimonial section */
+
+#testimonials {
+    background-color:#ef8172;
+    color:white;
+    padding: 0 0 5% 0 ;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.testimonial-h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    padding: 60px 20% 5% 20%;
+ }
+
+.testimonial-image {
+    width: 7rem;
+    border-radius: 50%;
+    margin: 0 5% 0 0;
+}
+
+.carousel-item {
+    padding: 10% 0;
+}
+
+
+
+
+/* Press section */
+
+#press {
+    background-color:#ef8172;
+    text-align: center;
+    padding: 0 3% 3% 3%;
+}
+
+.press-item { 
+    width: 200px;
+    padding: 0 .6rem;
+
+}
+
+
+
+
+/* Pricing section */
+
+ 
+#pricing{ 
+    text-align:center;
+    padding: 0 15% 5% 15%;
+}
+.plan-h2{
+    padding-bottom: 0;
+    font-size: 3rem;
+
+}
+
+
+.price-title {
+    padding: 5% 0;
+}
+
+
+
+/* CTA section */
+
+#cta { 
+    background-color: #ff4c68;
+    padding: 9% 15%;
+    text-align: center;
+}
+
+.cta-text { 
+    font-family:Montserrat;
+    font-weight:900;
+    font-size: 3rem;
+    color: white;
+    padding-bottom: 1.5rem;
+}
+
+
+
+/* Footer section */
+
+#footer{ 
+    text-align: center;
+    background:#fff;
+    color:#000;
+
+}
+
+
+    
+/* footer section */
+
+
+#p-copyright {
+
+    font-family: Ubuntu;
+    font-weight:300;
+    padding-bottom: .8rem;
+    margin-bottom: 0;
+}
+
+.social-handle {
+    padding: 1rem;
+}
+
+
+
+@media (max-width: 1028px) {
+    
+    #title { 
+        text-align: center;
+        padding: 5% 15%;
+    }
+    
+    .iphone6 {
+        position: static;
+        transform: rotate(0);
+        padding-top: 40px;
+    }
+
+    .press-item {
+        padding: 0 .3rem .6rem .3rem;
+
+
+    }
+    
+    }
+
+
+
+
+
